@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+}
+
+
+.Game {
+    background-color: aqua;
+    border: black solid 4px;
+}
+
+.restart {
+    width: 80px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+button {
+    margin-bottom: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+.fieldContainer {
+    border: black solid 2px;
+}
+
+.field {
+    height: 500px;
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.cell {
+    font-size: 24px;
+    background-color: aqua;
+    border: 2px solid rgb(2, 26, 26);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
